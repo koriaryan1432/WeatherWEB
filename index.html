@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web App</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="searchbox">
+            <img id="loc" src="https://cdn-icons-png.freepik.com/512/6125/6125244.png?ga=GA1.1.677666759.1705996385&" alt="">
+            <input type="text" placeholder="Enter City Name" >
+            <button class="btn">
+                <img src="https://cdn-icons-png.freepik.com/512/14025/14025191.png?ga=GA1.1.677666759.1705996385&" alt="">
+            </button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weatherinfo">
+            <div class="detailss">
+                <div class="col1">
+                    <div class="weather">
+                        <img src="https://cdn-icons-png.freepik.com/512/733/733740.png?ga=GA1.1.677666759.1705996385&"
+                            class="weathericon">
+                    </div>
+                    <div class="col1">
+                        <h1 class="temp">0°C</h1>
+                        <h2 class="City-Name">Los Angeles</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="details">
+                <div class="col">
+                    <img src="./humid.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <img src="./windspeed.png" alt="">
+                    <div>
+                        <p class="windspeed">50km/h</p>
+                        <p>Wind speed</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
